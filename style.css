@@ -207,3 +207,9 @@ input:focus {
         text-align: center;
     }
 }
+a {
+    color:#1b5613;
+}
+a:visited {
+    color:#79bd72c3;
+}
