@@ -112,7 +112,7 @@ input:focus {
     outline: none;
 }
 
-.outside-footer {
+.btn {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -120,7 +120,7 @@ input:focus {
     gap: 10px;
 }
 
-.outside-footer button {
+.btn button {
     padding: 12px 24px;
     background-color: #1b5613;
     color: white;
@@ -132,7 +132,7 @@ input:focus {
     margin-top: 50px;
 }
 
-.outside-footer button:hover {
+.btn button:hover {
     background-color: #79bd72c3;
     transform: scale(1.05);
     color: #000;
