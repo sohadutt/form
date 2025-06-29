@@ -209,7 +209,9 @@ input:focus {
 }
 a {
     color:#1b5613;
+    text-decoration: none;
 }
 a:visited {
     color:#79bd72c3;
+    text-decoration: none;
 }
