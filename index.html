@@ -7,40 +7,56 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="img-container">
-        <img src="./img/tree.jpg" alt="Tree Image">
-    </div>
-    <div class="main-container">
-        <h2>Spice up the world with your chicken curry! Fill in your details and let's get cooking.</h2>
-        <form action="" method="POST" class="form-container">
-            <fieldset>
-            <h1>Let's Start</h1>
-            
-            <label for="first-name">First Name:</label>
+<div class="wrapper">
+  <div class="img-container">
+    <img src="./img/tree.jpg" alt="Tree Image">
+  </div>
+
+  <div class="main-container">
+    <h2 class="intro-text">
+      Spice up the world with your chicken curry! Fill in your details and let's get cooking.
+    </h2>
+
+    <form action="#" method="POST">
+      <fieldset>
+        <div class="form-column">
+          <div class="input-container">
+            <label for="first-name"><span>First Name:</span></label>
             <input type="text" id="first-name" name="first-name" required>
-
-            <label for="last-name">Last Name:</label>
-            <input type="text" id="last-name" name="last-name" required>
-
-            <label for="email">Email:</label>
+          </div>
+          <div class="input-container">
+            <label for="email"><span>Email:</span></label>
             <input type="email" id="email" name="email" required>
-
-            <label for="phone">Phone:</label>
-            <input type="tel" id="phone" name="phone" required>
-
-            <label for='password'>Password:</label>
+          </div>
+          <div class="input-container">
+            <label for="password"><span>Password:</span></label>
             <input type="password" id="password" name="password" required>
+          </div>
+        </div>
 
-            <label for="confirm-password">Confirm Password:</label>
+        <div class="form-column">
+          <div class="input-container">
+            <label for="last-name"><span>Last Name:</span></label>
+            <input type="text" id="last-name" name="last-name" required>
+          </div>
+          <div class="input-container">
+            <label for="phone"><span>Phone:</span></label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+          <div class="input-container">
+            <label for="confirm-password"><span>Confirm Password:</span></label>
             <input type="password" id="confirm-password" name="confirm-password" required>
-            </fieldset>
+          </div>
+        </div>
+      </fieldset>
+    </form>
 
-            <button type="submit">Create Account</button>
-        </form>
-
-        <p>Already have an account? <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Log in</a></p>
+    <div class="outside-footer">
+      <button type="submit">Create Account</button>
+      <p>Already have an account? <a href="https://youtu.be/dQw4w9WgXcQ?si=3eEnwnsgdm094Qme">Log in</a></p>
     </div>
-       
-    
+  </div>
+</div>
+
 </body>
 </html>
