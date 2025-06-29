@@ -55,7 +55,12 @@ body {
     margin-bottom: 10px;
 }
 
-form {
+h1 {
+    font-size: 28px;
+    color: #1b5613;
+    margin-bottom: 10px;
+}
+.form-in {
     background-color: #fff;
     border-radius: 12px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
@@ -66,7 +71,7 @@ form {
     display: flex;
     flex-direction: column;
     gap: 25px;
-    margin-top: 100px;
+    margin-top: 72px;
 }
 
 fieldset {
