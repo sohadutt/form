@@ -175,29 +175,3 @@ input:focus {
         text-align: center;
     }
 }
-@media (max-width: 480px) {
-    .wrapper {
-        gap: 20px;
-    }
-
-    .img-container img {
-        height: 70vh;
-    }
-
-    form {
-        padding: 20px;
-    }
-
-    .input-container label span {
-        font-size: 12px;
-    }
-
-    input {
-        font-size: 14px;
-    }
-
-    .outside-footer button {
-        width: 100%;
-        padding: 10px;
-    }
-}
